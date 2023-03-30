@@ -9,8 +9,11 @@ void main() {
 /**변수선언 
  * var : 함수나 메소드 내부에 지역변수를 선언할 때
  * String (type) : class에서 변수나 property를 선언할 때
+ * 데이터를 받았는데, 어떤 타입인지 모른다면 dynamic 을 활용 -> 이상적으로는 피해야함
 */
-  var name = 'songha';
+  var name; // Type: dynamic
   // String name = 'songha';
   name = 'zena';
+  name = 12;
+  name = true;
 }
