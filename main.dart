@@ -5,4 +5,12 @@ void main() {
     // 세미콜론; 꼭 써줘야함!
     print('hello ${i + 1}');
   }
+
+/**변수선언 
+ * var : 함수나 메소드 내부에 지역변수를 선언할 때
+ * String (type) : class에서 변수나 property를 선언할 때
+*/
+  var name = 'songha';
+  // String name = 'songha';
+  name = 'zena';
 }
