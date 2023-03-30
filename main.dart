@@ -6,7 +6,7 @@ void main() {
     print('hello ${i + 1}');
   }
 
-/**변수선언 
+/** 변수선언 
  * var : 함수나 메소드 내부에 지역변수를 선언할 때
  * String (type) : class에서 변수나 property를 선언할 때
  * 데이터를 받았는데, 어떤 타입인지 모른다면 dynamic 을 활용 -> 이상적으로는 피해야함
@@ -16,4 +16,13 @@ void main() {
   name = 'zena';
   name = 12;
   name = true;
+
+/** Null Safety
+ * 개발자가 null 값을 참조할 수 없도록 하는 것
+ * 어떤 변수 혹은 데이터가 null 이 될 수 있음을 명시함
+ * ? 를 붙인다. 
+ */
+  String? data = 'data';
+  data = null;
+  data?.isNotEmpty;
 }
